@@ -159,6 +159,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "dot",
+    "full-name": "DOT",
+    "server-name": "dot-language-server",
+    "server-url": "https://github.com/nikeee/dot-language-server",
+    "installation": "npm install -g dot-language-server",
+    "lsp-install-server": "dot-ls",
+    "debugger": "Not available"
+  },
+  {
     "name": "elixir",
     "full-name": "Elixir",
     "server-name": "elixir-lsp/elixir-ls",
@@ -212,9 +221,9 @@
   {
     "name": "fortran",
     "full-name": "Fortran",
-    "server-name": "fortran-language-server",
-    "server-url": "https://github.com/hansec/fortran-language-server",
-    "installation": "pip install fortran-language-server",
+    "server-name": "fortls",
+    "server-url": "https://gnikit.github.io/fortls",
+    "installation": "pip install fortls",
     "debugger": "Yes"
   },
   {
@@ -252,10 +261,10 @@
   {
     "name": "grammarly",
     "full-name": "Grammarly",
-    "server-name": "@emacs-grammarly/unofficial-grammarly-language-server",
-    "server-url": "https://github.com/emacs-grammarly/unofficial-grammarly-language-server",
-    "installation-url": "https://github.com/emacs-grammarly/unofficial-grammarly-language-server",
-    "installation": "npm i -g @emacs-grammarly/unofficial-grammarly-language-server",
+    "server-name": "@emacs-grammarly/grammarly-languageserver",
+    "server-url": "https://github.com/emacs-grammarly/grammarly-language-server",
+    "installation-url": "https://github.com/emacs-grammarly/grammarly-language-server",
+    "installation": "npm i -g @emacs-grammarly/grammarly-languageserver",
     "debugger": "Not available"
   },
   {
@@ -433,6 +442,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "mint",
+    "full-name": "mint-lang",
+    "server-name": "mint",
+    "server-url": "https://github.com/mint-lang/mint",
+    "installation-url": "https://mint-lang.com/blog/mint-0.12.0",
+    "debugger": "Not available"
+  },
+  {
     "name": "nginx",
     "full-name": "Nginx",
     "server-name": "nginx-lsp",
@@ -483,10 +500,10 @@
   {
     "name": "openscad",
     "full-name": "OpenSCAD",
-    "server-name": "openscad-language-server",
-    "server-url": "https://github.com/dzhu/openscad-language-server",
-    "installation-url": "https://github.com/dzhu/openscad-language-server",
-    "installation": "cargo install openscad-language-server",
+    "server-name": "openscad-lsp",
+    "server-url": "https://github.com/Leathong/openscad-LSP",
+    "installation-url": "https://github.com/Leathong/openscad-LSP",
+    "installation": "cargo install openscad-lsp",
     "debugger": "Not available"
   },
   {
@@ -497,6 +514,14 @@
     "client-name": "lsp-pascal",
     "client-url": "https://github.com/arjanadriaanse/lsp-pascal",
     "installation-url": "https://github.com/arjanadriaanse/pascal-language-server",
+    "debugger": "Not available"
+  },
+  {
+    "name": "pls",
+    "full-name": "PLS",
+    "server-name": "Perl Language Server",
+    "server-url": "https://metacpan.org/pod/PLS",
+    "installation": "cpan PLS",
     "debugger": "Not available"
   },
   {
@@ -734,6 +759,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "syntax_tree",
+    "common-group-name": "Ruby (syntax_tree)",
+    "full-name": "ruby-syntax-tree",
+    "server-name": "stree",
+    "server-url": "https://github.com/ruby-syntax-tree/syntax_tree",
+    "installation-url": "https://github.com/ruby-syntax-tree/syntax_tree#installation",
+    "debugger": "Not available"
+  },
+  {
     "name": "terraform",
     "full-name": "Terraform",
     "server-name": "terraform-lsp",
@@ -780,7 +814,7 @@
     "full-name": "TOML",
     "server-name": "taplo",
     "server-url": "https://github.com/tamasfe/taplo",
-    "installation": "cargo install taplo-cli",
+    "installation": "cargo install taplo-cli --features lsp",
     "debugger": "Not available"
   },
   {
