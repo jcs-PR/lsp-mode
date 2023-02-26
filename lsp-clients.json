@@ -452,6 +452,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "millet",
+    "full-name": "Standard ML (Millet)",
+    "server-name": "millet",
+    "server-url": "https://github.com/azdavis/millet",
+    "installation-url": "https://github.com/azdavis/millet",
+    "debugger": "Not available"
+  },
+  {
     "name": "mint",
     "full-name": "mint-lang",
     "server-name": "mint",
@@ -700,6 +708,14 @@
     "debugger": "Yes"
   },
   {
+    "name": "ruff-lsp",
+    "full-name": "Python",
+    "server-name": "ruff-lsp",
+    "server-url": "https://github.com/charliermarsh/ruff-lsp",
+    "installation": "pip install ruff-lsp",
+    "debugger": "Not available"
+  },
+  {
     "name": "rust-analyzer",
     "common-group-name": "rust",
     "full-name": "Rust",
@@ -908,7 +924,7 @@
     "server-name": "volar-language-server",
     "server-url": "https://github.com/johnsoncodehk/volar",
     "installation": "npm install -g @volar/vue-language-server",
-    "lsp-install-server": "volar-api",
+    "lsp-install-server": "vue-semantic-server",
     "debugger": "Not available"
   },
   {
