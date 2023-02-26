@@ -12,6 +12,7 @@ unix-ci: clean build compile prepare_cpp_project unix-test
 # TODO: add 'windows-test' back
 windows-ci: clean build compile prepare_cpp_project
 
+
 build:
 	$(EASK) package
 	$(EASK) install
