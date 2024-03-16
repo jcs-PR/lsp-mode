@@ -13,6 +13,7 @@
     "server-name": "ada_language_server",
     "server-url": "https://github.com/AdaCore/ada_language_server",
     "installation-url": "https://github.com/AdaCore/ada_language_server#install",
+    "lsp-install-server": "ada-ls",
     "debugger": "Yes (gdb)"
   },
   {
@@ -825,6 +826,14 @@
     "server-name": "remark-language-server",
     "server-url": "https://github.com/remarkjs/remark-language-server",
     "installation": "npm i -g remark-language-server",
+    "debugger": "Not available"
+  },
+  {
+    "name": "rpm-spec",
+    "full-name": "RPM Spec",
+    "server-name": "rpm-spec-language-server",
+    "server-url": "https://github.com/dcermak/rpm-spec-language-server",
+    "installation": "pip install --user rpm-spec-language-server",
     "debugger": "Not available"
   },
   {
