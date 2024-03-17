@@ -172,6 +172,14 @@
     "debugger": "Not relevant"
   },
   {
+    "name": "cobol",
+    "full-name": "COBOL",
+    "server-name": "cobol-language-service",
+    "server-url": "https://github.com/eclipse-che4z/che-che4z-lsp-for-cobol",
+    "installation-url": "https://github.com/eclipse-che4z/che-che4z-lsp-for-cobol/releases",
+    "debugger": "Not relevant"
+  },
+  {
     "name": "crystal",
     "full-name": "Crystal",
     "server-name": "crystalline",
@@ -1056,6 +1064,15 @@
     "server-name": "taplo",
     "server-url": "https://github.com/tamasfe/taplo",
     "installation": "cargo install taplo-cli --features lsp",
+    "debugger": "Not available"
+  },
+  {
+    "name": "trunk",
+    "full-name": "Trunk",
+    "server-name": "trunk-lsp",
+    "server-url": "https://docs.trunk.io",
+    "installation": "curl https://get.trunk.io -fsSL | bash -s -- -y; trunk init",
+    "installation-url": "https://docs.trunk.io/check",
     "debugger": "Not available"
   },
   {

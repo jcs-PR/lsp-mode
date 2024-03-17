@@ -171,6 +171,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-cobol/</loc>
+         <lastmod>2024-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-credo/</loc>
          <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
@@ -682,6 +687,11 @@
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-toml/</loc>
+         <lastmod>2024-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-trunk/</loc>
          <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
