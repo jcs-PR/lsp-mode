@@ -2962,6 +2962,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#lsp-rust-analyzer-cargo-cfgs" class="md-nav__link">
+    lsp-rust-analyzer-cargo-cfgs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#lsp-rust-analyzer-cargo-extra-args" class="md-nav__link">
     lsp-rust-analyzer-cargo-extra-args
   </a>
@@ -4622,6 +4629,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#lsp-rust-analyzer-cargo-cfgs" class="md-nav__link">
+    lsp-rust-analyzer-cargo-cfgs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#lsp-rust-analyzer-cargo-extra-args" class="md-nav__link">
     lsp-rust-analyzer-cargo-extra-args
   </a>
@@ -5285,6 +5299,11 @@ modifying the signature that is displayed by eldoc.</p>
 <p><em>Default:</em> <code>t</code></p>
 <p>Automatically refresh project info via <code>cargo metadata</code> on <code>Cargo.toml</code> changes.</p>
 <hr />
+<h3 id="lsp-rust-analyzer-cargo-cfgs"><code>lsp-rust-analyzer-cargo-cfgs</code><a class="headerlink" href="#lsp-rust-analyzer-cargo-cfgs" title="Permanent link">#</a></h3>
+<p><em>Type:</em> <code>lsp-string-vector</code></p>
+<p><em>Default:</em> <code>[debug_assertions miri]</code></p>
+<p>Extra configurations that are passed to every cargo invocation.</p>
+<hr />
 <h3 id="lsp-rust-analyzer-cargo-extra-args"><code>lsp-rust-analyzer-cargo-extra-args</code><a class="headerlink" href="#lsp-rust-analyzer-cargo-extra-args" title="Permanent link">#</a></h3>
 <p><em>Type:</em> <code>lsp-string-vector</code></p>
 <p><em>Default:</em> <code>[]</code></p>
@@ -5292,7 +5311,7 @@ modifying the signature that is displayed by eldoc.</p>
 <hr />
 <h3 id="lsp-rust-analyzer-cargo-extra-env"><code>lsp-rust-analyzer-cargo-extra-env</code><a class="headerlink" href="#lsp-rust-analyzer-cargo-extra-env" title="Permanent link">#</a></h3>
 <p><em>Type:</em> <code>alist</code></p>
-<p><em>Default:</em> <code>#s(hash-table size 65 test eql rehash-size 1.5 rehash-threshold 0.8125 data ())</code></p>
+<p><em>Default:</em> <code>#s(hash-table)</code></p>
 <p>Extra environment variables that will be set when running cargo, rustc or
 other commands within the workspace.  Useful for setting RUSTFLAGS.</p>
 <hr />
@@ -5673,7 +5692,7 @@ active, the various inlay format settings are not used.</p>
 <hr />
 <h3 id="lsp-rust-analyzer-store-path"><code>lsp-rust-analyzer-store-path</code><a class="headerlink" href="#lsp-rust-analyzer-store-path" title="Permanent link">#</a></h3>
 <p><em>Type:</em> <code>file</code></p>
-<p><em>Default:</em> <code>~/work/lsp-mode/lsp-mode/docs/.eask/28.1/.cache/lsp/rust/rust-analyzer</code></p>
+<p><em>Default:</em> <code>~/work/lsp-mode/lsp-mode/docs/.eask/30.2/.cache/lsp/rust/rust-analyzer</code></p>
 <p>The path to the file in which <code>rust-analyzer</code> will be stored.</p>
 <hr />
 <h3 id="lsp-rust-analyzer-use-client-watching"><code>lsp-rust-analyzer-use-client-watching</code><a class="headerlink" href="#lsp-rust-analyzer-use-client-watching" title="Permanent link">#</a></h3>
@@ -5695,7 +5714,7 @@ compiling unnecessary things.</p>
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 17, 2025</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 5, 2025</span>
       
     
   </small>
